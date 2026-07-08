@@ -4,16 +4,19 @@ A lightweight Windows launcher that automatically starts **Overwolf** alongside 
 
 All settings live in a single `config.ini` — **no need to touch the scripts themselves**.
 
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP_v2.0-green?style=for-the-badge&logo=github)](https://github.com/LeoRoy61/r6s-overwolf-auto-launcher/releases/download/v2.0/r6s-overwolf-launcher-v2.0.zip)
+
+> ⚠️ **Disclaimer:** This script is a launcher utility. It **does not** include or download Overwolf, Ubisoft Connect, or Rainbow Six Siege. You must have these applications installed on your system beforehand.
+
 ---
 
 ## ✨ Features
 
 - 🚀 Launches Overwolf before the game so overlays are ready on time
-- 🔎 **Auto-detects Overwolf** via Windows Registry and all drives (C, D, E…)
+- 🔎 **Auto-detects Overwolf and Rainbow Six Siege** via Windows Registry and all drives (C, D, E…)
 - 🔍 Monitors the game process and waits gracefully for the game to appear
 - 🛑 Detects when the game closes and terminates all Overwolf processes
-- ⚙️ Fully configurable via `config.ini` (paths, timing, language)
-- 🌍 Bilingual output: **Italian** and **English** (selectable in config)
+- ⚙️ Fully configurable via `config.ini` (paths, timing, processes)
 - 🔁 Works with **any Ubisoft Connect game** — just change the Game ID
 
 ---
