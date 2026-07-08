@@ -65,11 +65,6 @@ Open `config.ini` with any text editor and adjust the values as needed:
 | `WAIT_START_INTERVAL` | `2` | Seconds between startup checks |
 | `MAX_START_ATTEMPTS` | `90` | Max startup attempts before timeout (90×2s = 3 min) |
 
-### `[DISPLAY]`
-
-| Key | Options | Description |
-|---|---|---|
-| `LANGUAGE` | `IT` / `EN` | Language for all messages |
 
 ---
 
@@ -80,8 +75,8 @@ Open `config.ini` with any text editor and adjust the values as needed:
 2. **Double-click `setup.bat`** — it will:
    - Automatically find Overwolf on your PC (Registry + all drives)
    - Ask you to confirm the path, or enter it manually if not found
-   - Let you choose your preferred language (IT / EN)
    - Automatically locate `RainbowSix.exe` on your system (Registry/Common library paths)
+   - Ask you to confirm the game path, or enter it manually if not found
    - Prompt you to automatically create shortcuts on your **Desktop** and/or **Start Menu**
    - Save your choices to `config.ini`
 3. If you chose to create a shortcut during setup, you can launch the game directly from your **Desktop** or **Start Menu**! It will have the official Rainbow Six Siege game icon, behaving exactly like the original shortcut.
