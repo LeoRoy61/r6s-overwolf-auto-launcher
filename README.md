@@ -5,6 +5,7 @@ A lightweight Windows launcher that automatically starts **Overwolf** alongside 
 All settings live in a single `config.ini` — **no need to touch the scripts themselves**.
 
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP_v2.0-green?style=for-the-badge&logo=github)](https://github.com/LeoRoy61/r6s-overwolf-auto-launcher/releases/download/v2.0/r6s-overwolf-launcher-v2.0.zip)
+[![Support on Ko-fi](https://img.shields.io/badge/Support%20on%20Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/leoroy61)
 
 > ⚠️ **Disclaimer:** This script is a launcher utility. It **does not** include or download Overwolf, Ubisoft Connect, or Rainbow Six Siege. You must have these applications installed on your system beforehand.
 
@@ -180,6 +181,14 @@ If an antivirus flags this script, please report it as a false positive:
 **PowerShell says "cannot be loaded because running scripts is disabled"**
 → The `.bat` launcher uses `-ExecutionPolicy Bypass` which overrides this automatically.
    If you run the `.ps1` directly, run: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+---
+
+## ☕ Support
+
+If this launcher made your gaming sessions a bit easier, consider supporting my work on Ko-fi!
+
+[![Support on Ko-fi](https://img.shields.io/badge/Support%20on%20Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/leoroy61)
 
 ---
 
